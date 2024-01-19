@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <script src="/assets/js/svg-inject.min.js"></script>
+    <title>Login One Page</title>
+</head>
+<body>
+    
+    <main>
+        <div class="container__image">
+            <img src="/assets/images/image.svg" alt="Form image" onload="SVGInject(this)">
+        </div>
+
+        <div class="container__form">
+            <div class="form__content">
+                <div class="form__title">
+                    <p>Bem-vindo de volta</p>
+                    <h1>Faça o login na sua conta</h1>
+                </div>
+
+                <form>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="exemplo@gmail.com">
+
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="0123456789">
+
+                    <div class="form-radio">
+                        <div class="radio-content">
+                            <input type="radio" id="lembrar-login">
+                            <label for="lembrar-login">Lembre de mim</label>
+                        </div>
+                            <a href="#">Esqueceu sua senha?</a>
+                    </div>
+
+                    <button type="submit" class="button-entrar">Entrar</button>
+
+                    <a href="#" class="button-google-entrar">
+                        <img src="/assets/images/google.svg" class="google-icon" alt="Google icon" onload="SVGInject(this)">
+                        Ou faça login com o Google
+                    </a>
+                </form>
+
+                <div class="cadastro">
+                    <p>Não tem uma conta?</p>
+                    <a href="#">Cadastre-se</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
